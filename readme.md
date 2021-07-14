@@ -7,7 +7,7 @@ This package allows you to dynamically show Bootstrap toasts via Laravel Livewir
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-    - [Showing Modals](#showing-toasts)
+    - [Showing Toasts](#showing-toasts)
     - [Emitting Events](#emitting-events)
 - [Publishing Assets](#publishing-assets)
     - [Custom Config](#custom-config)
