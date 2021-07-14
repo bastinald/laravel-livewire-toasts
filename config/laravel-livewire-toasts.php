@@ -25,6 +25,6 @@ return [
     |
     */
 
-    'error_message' => 'Please correct the highlighted errors.',
+    'error_message' => 'Please correct the errors.',
 
 ];
