@@ -4,6 +4,7 @@ let toastsElement = document.getElementById('laravel-livewire-toasts');
 
 Livewire.on('showBootstrapToast', () => {
     let toast = Toast.getOrCreateInstance(toastsElement);
+
     toast.show();
 });
 

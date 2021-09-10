@@ -50,15 +50,18 @@ Show a toast by emitting the `showToast` event with the color & message:
 ```php
 public function save()
 {
-    $validated = $this->validate();
+    $this->validate();
 
-    $this->user->fill(array_filter($validated))->save();
+    $this->user->update([
+        'name' => $this->name,
+        'email' => $this->email,
+    ]);
 
-    $this->emit('showToast', 'success', __('User Saved!'));
+    $this->emit('showToast', 'success', __('User updated!'));
 }
 ```
 
-The color should be a Bootstrap color name .e.g `success`, `danger`, `info`.
+The color should be a Bootstrap color name e.g. `success`, `danger`, `info`.
 
 ### Emitting Events
 
@@ -79,7 +82,7 @@ public function save()
 
     // save the record
 
-    $this->emit('showToast', 'info', __('Record Saved!'));
+    $this->emit('showToast', 'info', __('Record saved!'));
 }
 ```
 

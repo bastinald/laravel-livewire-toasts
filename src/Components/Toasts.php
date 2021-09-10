@@ -6,7 +6,8 @@ use Livewire\Component;
 
 class Toasts extends Component
 {
-    public $color, $message;
+    public $color;
+    public $message;
 
     protected $listeners = ['showToast'];
 

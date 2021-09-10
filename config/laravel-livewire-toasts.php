@@ -8,7 +8,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | This value is how long it takes for toasts to automatically hide after
-    | they have been shown. The value is in milliseconds.
+    | they have been shown. This value is in milliseconds.
     |
     */
 
@@ -25,6 +25,6 @@ return [
     |
     */
 
-    'error_message' => 'Please correct the errors.',
+    'error_message' => 'Whoops! Something went wrong.',
 
 ];
